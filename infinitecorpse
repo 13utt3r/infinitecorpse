@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Infinite Corpse</title>
+    <!-- Add any CSS styles or JavaScript scripts here -->
+</head>
+<body>
+    <h1>Welcome to Infinite Corpse</h1>
+    <p>A collaborative poetry project where users from around the world contribute to an ever-growing poem!</p>
+    <p>See how your words blend with others to form a unique piece of art.</p>
+
+    <div id="poem-display">
+        <h2>Previous Line:</h2>
+        <p id="previous-line">[Displaying a randomly selected line from a previous user's contribution]</p>
+    </div>
+
+    <h2>Add Your Lines</h2>
+    <form id="add-lines-form">
+        <label for="line1">Line 1:</label>
+        <input type="text" id="line1" name="line1" required>
+        <br>
+        <label for="line2">Line 2:</label>
+        <input type="text" id="line2" name="line2" required>
+        <br>
+        <input type="submit" value="Add Lines">
+    </form>
+
+    <div id="completed-poem">
+        <h2>Completed Poem:</h2>
+        <p id="poem-lines">[Displaying the completed poem with line breaks and formatting]</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Infinite Corpse. All rights reserved. | <a href="#">Contact Us</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <!-- Add any JavaScript scripts here to handle form submission and dynamic content updates -->
+</body>
+</html>
