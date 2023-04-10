@@ -3,6 +3,9 @@
 <head>
     <title>Infinite Corpse</title>
     <!-- Add any CSS styles or JavaScript scripts here -->
+    <style>
+        /* Add your CSS styles here */
+    </style>
 </head>
 <body>
     <h1>Welcome to Infinite Corpse</h1>
@@ -35,5 +38,8 @@
     </footer>
 
     <!-- Add any JavaScript scripts here to handle form submission and dynamic content updates -->
+    <script>
+        // Add your JavaScript code here
+    </script>
 </body>
 </html>
